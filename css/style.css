@@ -1,0 +1,678 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  background-color: #eaebef;
+  font-family: "Questrial";
+}
+@font-face {
+  font-family: "Questrial";
+  src: url(../fonts/Questrial-Regular.ttf);
+}
+@font-face {
+  font-family: "Apple";
+  src: url(../fonts/HomemadeApple-Regular.ttf);
+}
+@font-face {
+  font-family: "press";
+  src: url(../fonts/PressStart2P-Regular.ttf);
+}
+.maincontainer {
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eaebef;
+}
+.container {
+  max-width: 1366px;
+  height: 80px;
+  background-color: #4167b2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 16px;
+  padding-right: 15px;
+}
+.container img {
+  height: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+}
+.container form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container form i {
+  margin-left: 0px;
+  color: #101010;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+.container input[type="text"] {
+  padding: 8px 10px;
+  width: 358px;
+  margin-left: 30px;
+  font-family: "Apple";
+  font-size: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+.container p {
+  font-family: "Questrial";
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  opacity: 20%;
+}
+.container p:hover {
+  color: #ffffff;
+  opacity: 100%;
+}
+.container p span {
+  max-width: 10px;
+  background-color: rgb(9, 13, 212);
+  height: 20px;
+  margin-left: 30px;
+}
+.container a {
+  margin-left: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  text-decoration: none;
+}
+.achievements {
+  max-width: 250px;
+  max-height: 350px;
+  background-color: white;
+}
+.achievements p {
+  color: #545353;
+  font-size: 18px;
+  line-height: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 0px;
+  font-family: "Questrial";
+  margin-right: 12px;
+  padding-top: 08px;
+}
+.achievements .Photography {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5px;
+}
+.achievements .Photography i {
+  margin-top: 14px;
+  color: #4167b2;
+  padding-left: 10px;
+}
+.achievements .Photography h3 {
+  color: #4167b2;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-top: 13px;
+}
+.Photography h3 {
+  font-size: 14px;
+  font-family: "Questrial";
+}
+.fbprofilepic {
+  max-width: 844px;
+  max-height: 350px;
+  position: relative;
+  margin-left: 20px;
+}
+.blackbg {
+  background-color: #111b2f;
+  height: 280px;
+  width: 846px;
+  margin-top: 0px;
+  position: relative;
+}
+.blackbg h1 {
+  color: #ffffff;
+  padding-left: 240px;
+  padding-top: 150px;
+  font-size: 30px;
+  position: absolute;
+}
+.blackbg span {
+  display: block;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "press";
+  padding-top: 10px;
+}
+.subcontainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 45%;
+      -ms-flex-preferred-size: 45%;
+          flex-basis: 45%;
+  max-height: 355px;
+}
+.dropdowns {
+  background-color: white;
+  width: 846px;
+  height: 70px;
+  padding-top: 25px;
+  padding-left: 226px;
+}
+.dropdowns a {
+  text-decoration: none;
+  font-family: "Questrial";
+  color: #4167b2;
+  font-weight: 1000;
+  padding-left: 40px;
+}
+.Pp {
+  max-width: 100px;
+  margin-left: 20px;
+}
+.Pp img {
+  max-width: 100%;
+}
+.profilepic {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+}
+.profilepic img {
+  width: 100%;
+}
+.MainAbout {
+  width: 420px;
+  margin-top: 20px;
+}
+.About {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0 0 20px;
+  font-size: 18px;
+}
+.About i {
+  color: #4167b2;
+}
+.titleui {
+  margin-bottom: 8px;
+}
+.About h3 {
+  color: #4167b2;
+  margin-top: 0px;
+  padding-left: 8px;
+  margin-bottom: 6px;
+}
+.shortintro p {
+  padding: 0 20px 20px 20px;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "Questrial";
+}
+.shortintro span {
+  font-size: 28px;
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Apple";
+}
+.works {
+  width: 676px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.Secondsection {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pic {
+  width: 45px;
+}
+.mind {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.mind img {
+  max-width: 100%;
+}
+.mind input {
+  border: 0.5px solid;
+  padding: 12px 180px;
+  border-radius: 30px;
+  margin-left: 10px;
+  color: #e3e1e1;
+  font-size: 14px;
+  margin-top: 1px;
+  background-color: #f1f0f0;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.livevideo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 12px;
+  margin-top: 10px;
+  max-width: 250px;
+  border-radius: 20px;
+  margin-right: 20px;
+  background-color: #f1f0f0;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.livevideo a {
+  text-decoration: none;
+  margin-top: 2px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #272728;
+}
+.mindicons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 30%;
+      -ms-flex-preferred-size: 30%;
+          flex-basis: 30%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.livevideo i {
+  font-size: 20px;
+}
+.livevideo:hover {
+  padding: 10px 15px;
+}
+.autodesk {
+  max-width: 150px;
+}
+.autodesk a img {
+  max-width: 100%;
+  padding-left: 20px;
+}
+.bounteousworks {
+  background-color: white;
+  margin-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.feeling {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+.feeling img {
+  max-width: 100%;
+  margin-top: 15px;
+}
+.feeling h3 {
+  color: #4167b2;
+  font-size: 17px;
+}
+.feeling .pic {
+  width: 40px;
+}
+.feelingtext {
+  margin-left: 10px;
+  font-family: "Questrial";
+}
+.feelingtext i {
+  margin-left: 2px;
+  font-size: 12px;
+}
+.feelingtext span {
+  display: block;
+  color: #7b7777;
+  margin-top: 5px;
+  font-size: 14px;
+  font-family: "Questrial";
+  font-weight: 500;
+}
+.bounteousworks .captions h2 {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: "Questrial";
+  font-weight: 500;
+}
+.threeworkcol {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 45%;
+      -ms-flex-preferred-size: 45%;
+          flex-basis: 45%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+.pptworks {
+  background-color: white;
+  margin-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.pptworks .captions h2 {
+  font-size: 16px;
+  margin-left: 20px;
+  font-weight: 500;
+  font-family: "Questrial";
+}
+.pptworks .captions span {
+  font-size: 14px;
+  color: #4167b2;
+  margin-left: 20px;
+  font-weight: 200;
+  font-family: "Questrial";
+}
+.pptworks .feeling img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+.meetingpics {
+  display: block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.meetingpics .picone {
+  max-height: 300px;
+  margin-bottom: 60px;
+}
+.meetingpics .picone img {
+  max-width: 100%;
+}
+.bounteousworks .captions span {
+  font-size: 14px;
+  color: #4167b2;
+  margin-left: 20px;
+  font-weight: 200;
+  font-family: "Questrial";
+}
+.hobbies {
+  width: 250px;
+  height: 1173px;
+  background-color: white;
+  margin-left: 20px;
+}
+.hobbieslist i {
+  color: #5c6b89;
+  font-size: 34px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.hobbieslist {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 5px;
+}
+.linkedin a {
+  color: #5c6b89;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.linkedin i {
+  padding-right: 5px;
+}
+.linkedin {
+  padding-bottom: 20px;
+}
+.linkedin :hover {
+  color: #4167b2;
+  font-size: 20px;
+}
+.linkedin :last-child {
+  padding-bottom: 0px;
+}
+.skillslist {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.skillslist i {
+  font-size: 12px;
+  position: absolute;
+  right: 20px;
+  padding-top: 20px;
+}
+.skillslist p {
+  font-size: 17px;
+  max-width: 200px;
+}
+.expertise {
+  background-color: #ffffff;
+  margin-bottom: 0px;
+  height: 303px;
+  margin-bottom: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+.softwarecontents {
+  color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 0px;
+}
+.softwarecontents progress {
+  padding-left: 10px;
+}
+.softcontone {
+  color: rgb(0, 0, 0);
+  right: 30px;
+  left: auto;
+  position: absolute;
+}
+.otherworks {
+  background-color: white;
+  margin-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.otherworks .captions h2 {
+  font-size: 16px;
+  margin-left: 20px;
+  font-weight: 500;
+  font-family: "Questrial";
+}
+.otherworks .captions span {
+  font-size: 14px;
+  color: #4167b2;
+  margin-left: 20px;
+  font-weight: 200;
+  font-family: "Questrial";
+}
+.otherworks .feeling img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+.otherpics .picone img {
+  max-width: 100%;
+}
+.twoworkcol {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 45%;
+      -ms-flex-preferred-size: 45%;
+          flex-basis: 45%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+.otherworkone {
+  max-width: 300px;
+}
+.otherworkone a img {
+  max-width: 100%;
+  padding-left: 20px;
+}
+.meetingpics .pictwo {
+  max-width: 350px;
+}
+.meetingpics .pictwo img {
+  max-width: 100%;
+}
+.footerimage {
+  max-width: 1366px;
+  position: absolute;
+  margin-top: 3300px;
+}
+.footerimage img {
+  max-width: 100%;
+}
+.container form {
+  z-index: inherit;
+}
+.ending {
+  padding-bottom: 20px;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+.bottom-right {
+  text-align: right;
+  position: absolute;
+  bottom: 7px;
+  right: 0;
+  opacity: 0.5;
+}
+.bottom-right .pic {
+  max-width: 150px;
+}
+.bottom-right .pic img {
+  max-width: 200%;
+}
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+      -ms-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  width: 1000px;
+}
+.popupcontent {
+  position: relative;
+}
+.popupcontent img {
+  display: block;
+  width: 100%;
+}
+.popupcontent a {
+  font-size: 20px;
+  position: absolute;
+  top: -16px;
+  right: -10px;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.mainpopup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
