@@ -499,6 +499,7 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
+  margin-top: 31px;
 }
 .softwarecontents {
   color: #000000;
@@ -675,4 +676,53 @@ body {
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
+}
+
+
+.certificatesection{
+  background-color: #ffffff;
+  margin-top: 34px;
+  padding-bottom: 10px;
+} 
+
+.certificatesection p{
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.certicateabouts span{
+  color: #4167b2;
+  font-weight: bold;
+  font-family: "press";
+  font-size: 12px;
+}
+
+.certicateabouts i{
+  color: #4167b2;
+}
+
+.SchoolCollege{
+  background-color: #ffffff;
+  height: 304px;
+  padding-bottom: 10px;
+}
+
+.schooldetails, .collegedetails{
+  padding-left: 20px;
+  padding-right: 16px;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.schooldetails  h3{
+  color: #4167b2;
+  font-size: 18px;
+  
+}
+
+.schooldetails p{
+  color: #000000;
+  font-size: 16px;
 }
